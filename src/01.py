@@ -4,13 +4,13 @@ from pathlib import Path
 from itertools import cycle
 
 def part1():
-    with open(str(Path('./data/01.dat')), 'r') as f:
+    with open(str(Path('../data/01.dat')), 'r') as f:
         data = [int(line.strip()) for line in f]
 
     return sum(data)
 
 def part2():
-    with open(str(Path('./data/01.dat')), 'r') as f:
+    with open(str(Path('../data/01.dat')), 'r') as f:
         data = [int(line.strip()) for line in f]
 
     data_repeater = cycle(data)
